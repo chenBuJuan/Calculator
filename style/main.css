@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    font-family: 'Microsoft Yahei';
+}
+
+section{
+    width: 320px;
+    height: 460px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    background: linear-gradient(45deg,#020031 0,#6d3353 100%);
+    box-shadow: 4px 4px 5px #999;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#ioArea{
+    height: 30px;
+    padding: 3px 0;
+    box-sizing: border-box;
+    margin: 5px 0 15px;
+}
+#ioArea>span{
+    display: inline-block;
+    height: 24px;
+    width: 250px;
+    font-size: 14px;
+    border-radius: 5px;
+    outline: 0;
+    border: 0;
+    box-sizing: border-box;
+    padding: 0 0 0 10px;
+    line-height: 24px;
+    background-color: #fff;
+}
+#keyArea{
+    height: 350px;
+    color: #fff;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+#keyArea .keyBtn{
+    width: 60px;
+    height: 60px;
+    font-size: 14px;
+    display: inline-block;
+    line-height: 60px;
+    box-sizing: border-box;
+    margin: 5px;
+    background-color: #337ab7;
+    box-shadow: 2px 2px 3px #111;
+    cursor: pointer;
+
+    transition: all 0.1s ease-in-out 0s;
+}
+#keyArea .keyBtn:hover{
+    transform: translate(1px, 1px);
+    background-color: #2d89ef;
+}
+section>header, section>footer{
+    height: 20px;
+    font-size: 12px;
+    line-height: 20px;
+    opacity: 0.5;
+    color: #fff;
+}
